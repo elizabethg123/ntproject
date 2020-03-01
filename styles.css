@@ -1,5 +1,8 @@
-body {
-  font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+/* Page */
+* {
+  font-family: 'Nunito Sans', ;
   color: black;
   margin: 0;
   padding: 0;
@@ -12,51 +15,46 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: sans-serif;
 }
 
 
 /* Navbar */
 .navbar {
-  background: #ea9abb;
+  background: #e1f4f3;
   border: none;
   color: black;
 }
 
-
-h1 {
-
+.active a {
+  background: #f1f9f9 !important;
 }
 
+a {
+  color: black !important;
+  text-decoration: none;
+}
+
+
+/* Grid */
 .grid-container {
   columns: 5 200px;
   column-gap: 1.5rem;
   width: 90%;
   margin: 0 auto;
-  
-  div {
-    width: 150px;
-    margin: 0 1.5rem 1.5rem 0;
-    display: inline-block;
-    width: 100%;
-    border: solid 2px black;
-    padding: 5px;
-    border-radius: 5px;
-  }
 }
 
 img {
-      width: 100%;
-      border-radius: 5px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .grid-item {
-    width: 150px;
-    margin: 0 1.5rem 1.5rem 0;
-    display: inline-block;
-    width: 100%;
-    padding: 5px;
-  }
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+}
 
 
 
