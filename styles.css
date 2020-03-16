@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
 
 /* Page */
 * {
-  font-family: 'Nunito Sans', ;
+  font-family: 'Bellota Text', cursive;
   color: black;
   margin: 0;
   padding: 0;
@@ -20,13 +20,9 @@
 
 /* Navbar */
 .navbar {
-  background: #e1f4f3;
+  background: #70bdac;
   border: none;
   color: black;
-}
-
-.active a {
-  background: #f1f9f9 !important;
 }
 
 a {
@@ -34,12 +30,25 @@ a {
   text-decoration: none;
 }
 
+.active a {
+  background: #70bdac !important;
+  color: white !important;
+}
+
+a:hover {
+  background: #70bdac !important;
+  color: white !important;
+
+}
+
+
+
 
 /* Grid */
 .grid-container {
-  columns: 5 200px;
+  columns: 4 400px;
   column-gap: 1.5rem;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -49,12 +58,9 @@ img {
 }
 
 .grid-item {
-  width: 150px;
+  width: 400px;
   margin: 0 1.5rem 1.5rem 0;
   display: inline-block;
   width: 100%;
   padding: 5px;
 }
-
-
-
